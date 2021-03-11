@@ -1,7 +1,7 @@
 # Nerf-MA40-Dart-Counter
 Nerf blaster visual dart counter and clip capacity detector.
 
-Please note that this project was created for fun and in my spare time therefore I will not be able to help answer any questions or fix any problems that may arise. I also take no responsibility if you damage you blaster or injure yourself by modifying it.
+Please note that this project was created as a senior project and for fun therefore I will not be able to help answer any questions or fix any problems that may arise. I also take no responsibility if you damage you blaster or injure yourself by modifying it.
 
 Parts List:
   - One Arduino compatible board of some kind
