@@ -7,8 +7,8 @@ Please note that this project was created as a senior project and for fun theref
 
 ## Parts List:
   - One Arduino compatible board of some kind (I used a Teensy 3.2. See why below)
-  - Two [Hall Effect sensors](https://www.amazon.com/gp/product/B07QS6PN3B/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)
-  - One [I2C OLED Screen](https://www.amazon.com/gp/product/B0761LV1SD/ref=ppx_yo_dt_b_asin_title_o05_s01?ie=UTF8&psc=1)
+  - Two <a href="https://www.amazon.com/gp/product/B07QS6PN3B/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1" target="_blank">Hall Effect sensors</a>
+  - One <a href="https://www.amazon.com/gp/product/B0761LV1SD/ref=ppx_yo_dt_b_asin_title_o05_s01?ie=UTF8&psc=1" target="_blank">I2C OLED Screen</a>
   - One microswitch/limit switch
   
 ## Why did I use a Teensy 3.2?
