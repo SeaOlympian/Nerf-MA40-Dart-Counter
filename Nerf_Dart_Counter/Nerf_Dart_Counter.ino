@@ -7,11 +7,11 @@
 //Set to true to debug.
 bool Debug = false;
 
-int Hall_Pin_1 = 11;
-int Hall_Pin_2 = 12;
+int Hall_Pin_1 = 14;
+int Hall_Pin_2 = 15;
 
 //Uses JC_Button to create a button with debouncing.
-Button Switch(10);
+Button Switch(13);
 
 //Maximum number of darts in mag.
 int dartMax;
