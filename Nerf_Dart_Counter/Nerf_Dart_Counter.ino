@@ -48,6 +48,10 @@ void setup() {
   pinMode(Hall_Pin_1, INPUT_PULLUP);
   pinMode(Hall_Pin_2, INPUT_PULLUP);
 
+  Wire.setSDA(17);
+  Wire.setSCL(16);
+
+
   //Creates instance of button with the name Switch.
   Switch.begin();
 
