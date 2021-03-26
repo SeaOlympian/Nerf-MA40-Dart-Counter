@@ -10,6 +10,7 @@ Please note that this project was created as a senior project and for fun theref
   - Two [Hall Effect sensors](https://www.amazon.com/gp/product/B07QS6PN3B/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)
   - One [I2C OLED Screen](https://www.amazon.com/gp/product/B0761LV1SD/ref=ppx_yo_dt_b_asin_title_o05_s01?ie=UTF8&psc=1)
   - One microswitch/limit switch
+  - One Capacitor (I used a 100µF that I had laying around)
 
 ## Why did I use a Teensy 3.2?
 There are two reasons why I decided to use a Teensy 3.2
@@ -17,4 +18,5 @@ There are two reasons why I decided to use a Teensy 3.2
   - I already had one laying around.
 
   ![Blaster Internals Before](/Media/Blaster_Internals_(Before).png)
-  ![Teensy 3.2 Wiring Diagram](/Media/Wiring_Diagram.png)
+  ![Teensy 3.2 Wiring Diagram](/Media/Component_Wiring_Diagram.png)
+  ![Power Wiring Diagram](/Media/Power_Wiring_Diagram.png)
