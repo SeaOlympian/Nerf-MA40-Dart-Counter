@@ -26,3 +26,9 @@ There are two reasons why I decided to use a Teensy 3.2
 
   ![Power Wiring Diagram](/Media/Power_Wiring_Diagram.png)
   I ran into a problem after I finished everything where the fly wheels would draw too much current when a dart went through them causing the Teensy to restart. So in order to fix the problem I added a 100µF capacitor as a temporary resivoir to keep the Teensy running for those short moments.
+
+  ![Blaster Internals After](/Media/Blaster_Internals_(After).png)
+  This is what it looked like after all the wiring and cutting was done. A bit messy but it was the best use of space that in my opinion and everything stays out of the way of the top half of the shell. Having the Teensy basically inside the handguard also means I need to only take that apart to update the code if necessary espically with the help of the micro USB to type C adapter.
+
+  ![USB Adapter](/Media/USB_Adapter.png)
+  Here is a close up of how I routed the usb adapter so it is more easily accessible.
