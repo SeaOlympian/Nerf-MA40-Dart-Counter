@@ -12,6 +12,21 @@ Please note that this project was created as a senior project and for fun theref
   - One microswitch/limit switch
   - One Capacitor (I used a 100µF that I had laying around)
   - Micro USB to USB Type C adapter (Optional)
+  - Screen Frame (Optional)
+
+## Explanition/Details:
+<p>The basic idea of this mod is to use two hall effect sensors to read what magnets are attached to the dart magazines. That tells the microcontroller how many darts are in them which is then displayed on the screen. When the trigger is pulled it activates the microswitch which tells the microcontroller there is one less dart in the magazine and again updates the screen.</p>
+
+Hall Effect Sensors: When a magnet is in front of them their output changes from 1 to 0. The program uses pins 14 and 15 for their outputs.
+
+I2C OLED Screen: I used a blue screen as the origional counter is blue. I also changed the default I2C pins on the Teensy to pins 16 and 17.
+
+Microswitch: The program uses pin 13.
+
+Capacitor: This is used to prevent the current draw of the flywheels to cause a brown out of the microcontroller making it reset. It is wired in parallel with the power for the microcontroller.
+
+Screen Frame: I designed this frame to hold the OLED screen in place and fill the area around it. I 3D printed it in black so that it blends in better. It fits inside the clear plastic panel in the origional housing and replaces the fake screen.
+
 
 ## Why did I use a Teensy 3.2?
 There are two reasons why I decided to use a Teensy 3.2
