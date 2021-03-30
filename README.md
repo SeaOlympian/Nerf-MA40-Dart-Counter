@@ -12,7 +12,7 @@ Please note that this project was created as a senior project and for fun theref
   - One microswitch/limit switch
   - One Capacitor (I used a 100µF that I had laying around)
   - Micro USB to USB Type C adapter (Optional)
-  - Screen Frame (Optional)
+  - Screen Frame (Optional. Files in the Models folder)
 
 ## Explanition/Details:
 <p>The basic idea of this mod is to use two hall effect sensors to read what magnets are attached to the dart magazines. That tells the microcontroller how many darts are in them which is then displayed on the screen. When the trigger is pulled it activates the microswitch which tells the microcontroller there is one less dart in the magazine and again updates the screen.</p>
